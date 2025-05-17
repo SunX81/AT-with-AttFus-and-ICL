@@ -18,13 +18,16 @@ The complete list of required packages are available in [requirement.txt](requir
 # Usage
 Download data in Datasets to data/.
 
-Download adversarial examples of ImageNet, ImageNette, CIFAR-10 and CIFAR-100 generated using untargeted attack (LaVAN) from [ModelScope (https://modelscope.cn/xpe811/AT_with_AttFus_and_ICL)].
+Download adversarial examples of ImageNet, ImageNette, CIFAR-10 and CIFAR-100 generated using untargeted attack (LaVAN) from ModelScope (https://modelscope.cn/datasets/xpe811/AT_with_AttFus_and_ICL).
 
 ImageNet.zip and ImageNette.zip to data/.
+
 patch_adv_vit_base_patch16_224_cifar.zip and patch_adv_vit_base_patch16_224_cifar100.zip to dump/.
 
-(optional) Download base_models.zip from [ModelScope (https://modelscope.cn/xpe811/AT_models)] and move them to base_models/.
-(optional) Download checkpoints.zip from [ModelScope (https://modelscope.cn/xpe811/AT_models)] and move them to checkpoints/.
+
+(optional) Download base_models.zip from ModelScope (https://modelscope.cn/models/xpe811/AT_models) and move them to base_models/.
+(optional) Download checkpoints.zip from ModelScope (https://modelscope.cn/models/xpe811/AT_models) and move them to checkpoints/.
+
 
 See [example_cmd.sh](example_cmd.sh) for example commands for running the code.CIFAR-10 and CIFAR-100
 
