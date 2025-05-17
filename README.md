@@ -26,6 +26,7 @@ patch_adv_vit_base_patch16_224_cifar.zip and patch_adv_vit_base_patch16_224_cifa
 
 
 (optional) Download base_models.zip from ModelScope (https://modelscope.cn/models/xpe811/AT_models) and move them to base_models/.
+
 (optional) Download checkpoints.zip from ModelScope (https://modelscope.cn/models/xpe811/AT_models) and move them to checkpoints/.
 
 
